@@ -26,3 +26,26 @@ header {
 .nav a:hover {
   color: rgb(235, 95, 8);
 }
+
+.top {
+  background-image: url("bgimage.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top h2 {
+  margin: none;
+  font-size: 3rem;
+}
+
+.top h4 {
+  margin: none;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,28 @@
+* {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav {
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.nav a {
+  margin: 30px;
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  color: rgb(235, 95, 8);
+}

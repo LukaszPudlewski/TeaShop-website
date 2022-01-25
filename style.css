@@ -62,3 +62,27 @@ header {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.bot {
+  background-image: url("locations.jpg");
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.loc {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.address1,
+.address2,
+.address3 {
+  margin: auto;
+  opacity: 0.8;
+  width: 300px;
+  height: 300px;
+}
